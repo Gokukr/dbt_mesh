@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: raw
+    database: RAW
+    schema: SAMPLE
+    tables:
+      - name: STUDENTS
+      - name: ORDERS
+
+  - name: staging
+    database: RAW
+    schema: STANDARDISED
+    tables:
+      - name: ORDERS
+      - name: PRODUCTS
+      - name: CUSTOMERS
+      - name: TRANSACTIONS
