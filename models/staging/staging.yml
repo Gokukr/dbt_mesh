@@ -15,7 +15,7 @@ models:
 
   - name: stg_customers
     group: revenue
-    access: private
+    access: protected
 
   - name: stg_transactions
     group: revenue
