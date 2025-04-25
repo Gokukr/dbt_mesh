@@ -1,0 +1,36 @@
+[0m14:27:50.961579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C314B68850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C314B5E0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C314B5FC90>]}
+
+
+============================== 14:27:50.973596 | 2b4db5ba-fbe4-4205-8a7b-3b56d044d4c0 ==============================
+[0m14:27:50.973596 [info ] [MainThread]: Running with dbt=1.8.7
+[0m14:27:50.973596 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GokulakrishnanK\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'c:\\Users\\GokulakrishnanK\\Downloads\\dbt-Mesh-on-demand-course-finance-main\\dbt-Mesh-on-demand-course-finance-main\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt ', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:27:51.114209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2b4db5ba-fbe4-4205-8a7b-3b56d044d4c0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C314BE3110>]}
+[0m14:27:51.155118 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:27:51.159415 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:27:51.163656 [debug] [MainThread]: Command `cli deps` succeeded at 14:27:51.163656 after 0.35 seconds
+[0m14:27:51.163656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C314B68850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C314838950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C314BB3150>]}
+[0m14:27:51.163656 [debug] [MainThread]: Flushing usage events
+[0m14:30:37.492899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205EADE9190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205EADE8E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205EADE9050>]}
+
+
+============================== 14:30:37.500184 | 84120147-d865-4bb6-afa5-9a8f84acb91f ==============================
+[0m14:30:37.500184 [info ] [MainThread]: Running with dbt=1.8.7
+[0m14:30:37.500184 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'c:\\Users\\GokulakrishnanK\\Downloads\\dbt-Mesh-on-demand-course-finance-main\\dbt_mesh\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\GokulakrishnanK\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt ', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:30:37.602824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '84120147-d865-4bb6-afa5-9a8f84acb91f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205EAE06710>]}
+[0m14:30:37.623175 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:30:37.630147 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:30:37.631376 [debug] [MainThread]: Command `cli deps` succeeded at 14:30:37.631376 after 0.21 seconds
+[0m14:30:37.631376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205EADEAA90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205EAE4DB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205EAE4FE90>]}
+[0m14:30:37.631376 [debug] [MainThread]: Flushing usage events
+[0m14:52:38.046230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220134F8B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022013543150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220132CDC10>]}
+
+
+============================== 14:52:38.050601 | c3670d8e-5045-4162-85e5-708d6806d5c5 ==============================
+[0m14:52:38.050601 [info ] [MainThread]: Running with dbt=1.8.7
+[0m14:52:38.055068 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GokulakrishnanK\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'c:\\Users\\GokulakrishnanK\\Downloads\\dbt-Mesh-on-demand-course-finance-main\\dbt_mesh\\dbt_mesh\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:52:38.179720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c3670d8e-5045-4162-85e5-708d6806d5c5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022013531A50>]}
+[0m14:52:38.204343 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:52:38.206351 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:52:38.206351 [debug] [MainThread]: Command `cli deps` succeeded at 14:52:38.206351 after 0.30 seconds
+[0m14:52:38.206351 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220134FA5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201355F850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201355F910>]}
+[0m14:52:38.208358 [debug] [MainThread]: Flushing usage events
