@@ -26,4 +26,4 @@ models:
     staging:
         database: MART
         materialized: table
-        
+        schema: KPI
