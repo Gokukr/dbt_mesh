@@ -4,19 +4,13 @@ config-version: 2
 profile: snowflake
 require-dbt-version: ">=1.6.0"
 
-model-paths:
-  - models
-macro-paths:
-  - macros
-seed-paths:
-  - seeds
-test-paths:
-  - tests
-analysis-paths:
-  - analyses
-target-path: target
-snapshot-paths:
-  - snapshots
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
 clean-targets:
   - target
   - dbt_packages
