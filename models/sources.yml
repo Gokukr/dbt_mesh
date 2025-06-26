@@ -3,16 +3,8 @@ version: 2
 sources:
   - name: raw
     database: RAW
-    schema: SAMPLE
+    schema: STAGING
     tables:
-      - name: STUDENTS
-      - name: ORDERS
+      - name: TEST_DATA
 
-  - name: staging
-    database: RAW
-    schema: STANDARDISED
-    tables:
-      - name: ORDERS
-      - name: PRODUCTS
-      - name: CUSTOMERS
-      - name: TRANSACTIONS
+  
