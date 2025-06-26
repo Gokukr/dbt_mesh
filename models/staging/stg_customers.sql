@@ -1,4 +1,4 @@
 select 
     *
 from
-    {{ source('raw','test_data')}}
+    {{ source('raw','TEST_DATA')}}
