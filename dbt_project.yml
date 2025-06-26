@@ -21,3 +21,4 @@ models:
         database: MART
         materialized: table
         schema: KPI
+        access: public

@@ -5,14 +5,6 @@ sources:
     database: RAW
     schema: SAMPLE
     tables:
-      - name: STUDENTS
-      - name: ORDERS
+      - name: TEST_DATA
 
-  - name: staging
-    database: RAW
-    schema: STANDARDISED
-    tables:
-      - name: ORDERS
-      - name: PRODUCTS
-      - name: CUSTOMERS
-      - name: TRANSACTIONS
+  

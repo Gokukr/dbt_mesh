@@ -1,4 +1,4 @@
 select 
     *
 from
-    {{ source("staging","CUSTOMERS")}}
+    {{ source('raw','test_data')}}
